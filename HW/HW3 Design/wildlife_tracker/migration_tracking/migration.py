@@ -20,3 +20,4 @@ class Migration:
 
     def schedule_migration(self, migration_path: MigrationPath) -> None: 
         pass
+    

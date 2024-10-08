@@ -37,3 +37,4 @@ class HabitatManager:
 
     def get_habitats_by_type(self, environment_type: str) -> List[Habitat]:
         pass
+    

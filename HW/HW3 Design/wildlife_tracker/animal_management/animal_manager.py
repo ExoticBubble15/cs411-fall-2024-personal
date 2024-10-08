@@ -21,3 +21,4 @@ class AnimalManager:
 
     def update_animal_details(self, animal_id: int, **kwargs: Any) -> None:
         pass
+    

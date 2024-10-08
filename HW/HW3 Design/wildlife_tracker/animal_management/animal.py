@@ -11,3 +11,4 @@ class Animal:
         self.species = species
         self.age = age
         self.health_status = health_status
+        

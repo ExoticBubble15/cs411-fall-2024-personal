@@ -18,3 +18,4 @@ class MigrationPath:
 
     def create_migration_path(self, species: str, start_location: Habitat, destination: Habitat, duration: Optional[int] = None) -> None:
         pass
+    

@@ -60,3 +60,4 @@ class MigrationManager:
 
     def update_migration_path_details(self, path_id: int, **kwargs) -> None: 
         pass
+    
