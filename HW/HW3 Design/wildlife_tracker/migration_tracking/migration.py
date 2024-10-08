@@ -18,5 +18,5 @@ class Migration:
         self.start_date = start_date
         self.status = status
 
-    def schedule_migration(migration_path: MigrationPath) -> None: 
+    def schedule_migration(self, migration_path: MigrationPath) -> None: 
         pass

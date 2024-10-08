@@ -16,5 +16,5 @@ class MigrationPath:
         self.species = species
         self.duration = duration
 
-    def create_migration_path(species: str, start_location: Habitat, destination: Habitat, duration: Optional[int] = None) -> None:
+    def create_migration_path(self, species: str, start_location: Habitat, destination: Habitat, duration: Optional[int] = None) -> None:
         pass
