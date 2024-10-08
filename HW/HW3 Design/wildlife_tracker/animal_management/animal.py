@@ -1,5 +1,8 @@
 from typing import Any, Optional
 
 class Animal:
-
-    pass
+    
+    age: Optional[int] = None
+    animal_id: int
+    health_status: Optional[str] = None
+    species: str
