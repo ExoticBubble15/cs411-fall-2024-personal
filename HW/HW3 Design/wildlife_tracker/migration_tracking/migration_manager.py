@@ -6,7 +6,7 @@ from wildlife_tracker.migration_tracking.migration import Migration
 
 class MigrationManager:
     
-    def __inti__(self) -> None:
+    def __init__(self) -> None:
         migrations: dict[int, Migration] = {}
         paths: dict[int, MigrationPath] = {}
 
