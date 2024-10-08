@@ -1,6 +1,6 @@
 from typing import Optional
 
-from wildlife_tracker.habitat_managment.animal import Habitat
+from wildlife_tracker.habitat_management.animal import Habitat
 
 class MigrationPath:
 
