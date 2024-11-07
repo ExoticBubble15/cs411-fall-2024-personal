@@ -14,16 +14,6 @@ configure_logger(logger)
 
 @dataclass
 class Meal:
-    """    
-    A class to manage a meal and track combat results.
-
-    Attributes:
-        id (int): Used to identify a meal.
-        meal (str): Description of the meal.
-        cuisine (str): What type of cuisine the meal is.
-        price (float): Price of the meal in some currency.
-        difficulty (str): The difficulty of each meal.
-    """
     id: int
     meal: str
     cuisine: str
@@ -42,7 +32,7 @@ class Meal:
 
 def create_meal(meal: str, cuisine: str, price: float, difficulty: str) -> None:
     """
-    Adds a meal to the database.
+    Creates a new meal in the database.
 
     Args:
         meal (str): Description of the meal.
