@@ -1,0 +1,2 @@
+I tried for hours to try to get the smoketest to run properly, even the playlist version, all to no avail. The TA in lab could not help either,
+so I just tried to create the most accurate smoketest I could given the circumstances.
